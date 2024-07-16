@@ -33,6 +33,11 @@ const router = createRouter({
       path: '/q05',
       name: 'q05',
       component: () => import('../views/Q05.vue')
+    },
+    {
+      path: '/q06',
+      name: 'q06',
+      component: () => import('../views/Q06.vue')
     }
   ]
 });
